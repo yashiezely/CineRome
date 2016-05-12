@@ -5,16 +5,30 @@ public class PP {
 
 	public static void main(String[] args) {
 	
-		Article cassette = new Article ("Cas123","ccc",10, 20);
-		Article cd = new Article ("Cas456","ccc",10, 20);
-		
 		Panier p = new Panier();
-		p.Ajouter(cassette,2);
-		p.Ajouter(cd,5);
-
 		
-		System.out.println(p.toString());
+		try{
+		Article cassette = new Article ("Cas123","ccc",new Prix(10), 20);
+		p.Ajouter(cassette ,20);
+		}	catch (Exception e){
+			
+			System.out.println("article non créé car prix incorrect");
+		}
+		
+		try{
+		Article cd = new Article ("Cas456","ccc",new Prix(10), 20);
+		p.Ajouter(cd ,20);
+		}
+		catch (Exception e){
+			
+			System.out.println("article non créé car prix incorrect");
+		}	
+			
+		}
+	
+	
+		System.out.println(p.toString());		//on peut faire p seulement il sait que c to String
 		System.out.println(p.getPrixTotalHT());
 	}
 
-}
+
