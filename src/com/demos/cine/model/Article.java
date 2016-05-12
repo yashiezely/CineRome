@@ -7,7 +7,7 @@ public class Article {
 	private int qteStock;
 
 	
-	public Article(double prixHT, String reference, String designation, int qteStock) {
+	public Article(String reference, String designation,double prixHT,int qteStock) {
 		super();
 		this.prixHT = prixHT;
 		this.reference = reference;
@@ -29,7 +29,6 @@ public class Article {
 	public String getDesignation() {
 		return designation;
 	}
-
 
 
 	public int getQteStock() {
