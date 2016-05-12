@@ -24,11 +24,10 @@ public class PP {
 			System.out.println("article non créé car prix incorrect");
 		}	
 			
-		}
-	
-	
+
 		System.out.println(p.toString());		//on peut faire p seulement il sait que c to String
 		System.out.println(p.getPrixTotalHT());
 	}
+}
 
 
