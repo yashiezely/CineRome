@@ -18,10 +18,10 @@ public class Panier {
 		
 		LignePanier lp= new LignePanier(a,qte);
 		Contenu.add (lp);
-		NbElement+=qte;
+		//NbElement+=qte;
 	}
 
-	
+
 	@Override
 	public String toString() {
 		String description="";
