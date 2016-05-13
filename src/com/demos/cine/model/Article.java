@@ -5,6 +5,7 @@ public class Article {
 	private String reference;
 	private String designation;
 	private int qteStock;
+	private String type;
 
 	
 	public Article(String reference, String designation,double prixHT,int qteStock) {
@@ -14,6 +15,18 @@ public class Article {
 		this.designation = designation;
 		this.qteStock = qteStock;
 	}
+
+
+
+	public String getType() {
+		return type;
+	}
+	public void setType(String type) {
+		this.type = type;
+	}
+
+
+
 
 
 	public double getPrixHT() {
