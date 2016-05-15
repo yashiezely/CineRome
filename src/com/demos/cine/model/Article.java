@@ -10,7 +10,7 @@ public class Article {
 
 	private boolean dematerialise;
 
-
+//test de branche pour ProjectGitHub3
 	
 	public Article(String reference, String designation,double prixHT,int qteStock) {
 		super();
