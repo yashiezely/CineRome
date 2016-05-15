@@ -1,5 +1,5 @@
 package com.demos.cine.model;
-
+//vérification du fonctionnement du merge
 public class LignePanier {
 
 	Article a;

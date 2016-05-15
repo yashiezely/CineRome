@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Panier {
 	
 
-	
+	//vérification du fonctionnement du merge
 	private  int NbElement = 0;
 	private  double PrixTotalHT =0;
 	

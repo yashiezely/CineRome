@@ -10,7 +10,7 @@ public class Article {
 
 	private boolean dematerialise;
 
-
+//vérification du fonctionnement du merge
 	
 	public Article(String reference, String designation,double prixHT,int qteStock) {
 		super();
