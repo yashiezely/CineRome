@@ -6,13 +6,23 @@ public class Article {
 	private String designation;
 	private int qteStock;
 
-	private String type;
+	private String type; 
 
 	private boolean dematerialise;
 
 //vérification du fonctionnement du merge
 //vérification du fonctionnement du merge
 //vérification du fonctionnement du merge
+//vérification du fonctionnement du merge
+//vérification du fonctionnement du merge
+	
+	
+	
+	//rajout de commentaire pour test2
+	
+	
+	
+	
 	public Article(String reference, String designation,double prixHT,int qteStock) {
 		super();
 		this.prixHT = prixHT;
